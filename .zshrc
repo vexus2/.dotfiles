@@ -189,10 +189,10 @@ esac
 [ -f ${HOME}/.zshrc.mine ] && source ${HOME}/.zshrc.mine
 
 # z
-. `brew --prefix`/etc/profile.d/z.sh
-function precmd () {
-   z --add "$(pwd -P)"
-}
+#. `brew --prefix`/etc/profile.d/z.sh
+#function precmd () {
+#   z --add "$(pwd -P)"
+#}
 
 if [ -f ~/.zsh/auto-fu.zsh/auto-fu.zsh ]; then
     source ~/.zsh/auto-fu.zsh/auto-fu.zsh
